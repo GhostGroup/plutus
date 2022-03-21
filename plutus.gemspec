@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
     "LICENSE",
     "README.markdown"
   ]
-  s.add_dependency("rails", "> 6.0")
+  s.add_dependency("rails", ">= 7.0")
   s.add_dependency("kaminari", "~> 1.2")
   s.add_development_dependency("yard")
   s.add_development_dependency("shoulda-matchers", "~> 3.1")
